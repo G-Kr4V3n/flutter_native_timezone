@@ -24,6 +24,10 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
+
+     // aquí es donde añades la línea namespace
+    namespace 'com.lyokone.flutter_native_timezone'
+    
     compileSdkVersion 30
 
     sourceSets {
